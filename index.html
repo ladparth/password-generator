@@ -12,26 +12,28 @@
     <div class="container">
         <h1>Welcome to PasswordGenerator!</h1>
         <label class="label">Select length of your password</label>
-        <input type="range" min="6" max="30" value="8" class="slider" id="myRange">
+        <input type="range" min="6" max="20" value="8" class="slider" id="myRange">
         <p id="password-length">8</p>
 
         <div class="parameters">
             <h3>Customize your password</h3>
-            <div>
-                <input type="checkbox" name="lowercase" id="lowercase">
-                <label for="lowercase">Include Lowercase Characters(e.g, abcdefg)</label>
-            </div>
-            <div>
-                <input type="checkbox" name="uppercase" id="uppercase">
-                <label for="uppercase">Include Uppercase Characters(e.g, ABCDEFG)</label>
-            </div>
-            <div>
-                <input type="checkbox" name="numbers" id="numbers">
-                <label for="numbers">Include Numbers(e.g, 123456)</label>
-            </div>
-            <div>
-                <input type="checkbox" name="specialCharacters" id="specialCharacters">
-                <label for="specialCharacters">Include Special Characters(e.g, @#$%^&*)</label>
+            <div class="checkboxes">
+                <div>
+                    <input type="checkbox" name="lowercase" id="lowercase">
+                    <label for="lowercase">Include Lowercase Letters</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="uppercase" id="uppercase">
+                    <label for="uppercase">Include Uppercase Letters</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="numbers" id="numbers">
+                    <label for="numbers">Include Numbers</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="specialCharacters" id="specialCharacters">
+                    <label for="specialCharacters">Include Special Characters</label>
+                </div>
             </div>
         </div>
 
